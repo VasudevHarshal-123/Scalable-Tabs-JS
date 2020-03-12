@@ -1,0 +1,45 @@
+body{
+	background:url("https://www.ubackground.com/_ph/4/779625064.jpg"); 
+	margin: 0;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	display:block;
+	min-height: 100vh;
+}/*
+.head{
+	padding-bottom: 20px;
+}*/
+p{
+	color: blue;
+}
+
+h2{
+	color: black;
+	margin: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li {
+	display: inline-flex;
+}
+
+ul li a{
+	text-decoration: none;
+	margin: 0 40px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.ninja{
+	display: none;
+	background-color: grey;
+}
+
+div.active{
+	display: block;
+}

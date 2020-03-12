@@ -1,0 +1,47 @@
+                                                                                                               Dom Selectors
+																											   
+		document.getElementsByClassName()[0];         WILL RETURN LIST OF OBJECTS 
+		
+		LISTS ARE LIGHTWEIGHTED ARRAY I.E HAS SOME PROPERTIES OF ARRAY NOT ALL 
+
+		document.querySelector("#id");  (".class");    can select anything inside of css document even the nested classes         RETURNS THE FIRST MATCH
+		
+		document.querySlelectorAll()                           RETURNS ALL WITH THE CONDITIONS
+		
+		CONSOLE.DIR(DOCUMENT) GIVES THE OBJECTS
+		
+		
+		                                                                                                     Which button was selected only tagname
+																											 
+																											 
+																											 
+																											 
+																											 
+																											 
+																											 
+																											 className fxn in JS
+																											 
+			
+			The className property sets or returns the class name of an element (the value of an element's class attribute).
+
+            Tip: A similar property to className is the classList property.
+
+			document.getElementById("myDIV").className = "mystyle";                      IT WILL TAKE WHATEVER ELEMENT HAS ID myDIV and add class "mystyle" to it	
+			
+			
+			                                                                                                replece("2","3")  fxn
+																											
+																											
+			Replace  	element two with element 3
+
+
+                                                                                                            event.target
+
+			console.log(event.target);  willshow us the event which is been selected
+
+			event.target.parentElement.className += ' active';          SPACE REQD
+			
+			it will add "active"  class to the parent element 
+			
+			
+			                                                                                                     Scalable Tabs
